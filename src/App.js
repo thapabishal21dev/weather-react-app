@@ -5,7 +5,7 @@ import "./App.css";
 import axios from "axios";
 
 const App = () => {
-  const [search, SetSearch] = useState("");
+  const [search, SetSearch] = useState("kathmandu");
   const [weather, SetWeather] = useState("");
 
   const ChangeSearch = (value) => {
@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div className="weatherBox text-center">
-      <h1 className=" font-extrabold text-[2.25rem] mt-20 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-teal-500  ">
+      <h1 className=" font-extrabold text-[2.5rem] mt-10 text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-teal-500  ">
         Weather Forecast
       </h1>
       <div className="">

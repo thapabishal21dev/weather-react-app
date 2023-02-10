@@ -6,11 +6,30 @@
 
 .details {
   background-color: 1a202c;
-  padding: 50px;
+  padding: 10px;
   box-shadow: black 0 5px 15px -3px;
 }
 
 .sun {
   width: 28px;
   margin-top: 10px;
+}
+
+img {
+  width: 100px;
+}
+
+.details_Primary {
+  box-shadow: black 0 5px 15px -3px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 12px;
+}
+
+box-icon {
+  color: aquamarine;
+}
+
+.fa-sharp {
+  color: white;
 }
